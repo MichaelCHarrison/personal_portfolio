@@ -20,7 +20,8 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--NAVBAR-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,20 +38,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about"> About Me</a></li>
-                    <li><a href="#portfolio"> Portfolio</a></li>
-                    <li><a href="#contact"> Contact</a></li>
+                    <li><a href="#about"> About Me </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Connect </a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Additional Info <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Learn More <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Music &amp; Me</a></li>
+                            <li><a href="#">Engage the Night</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">Contact Me</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -58,6 +58,7 @@
         </div><!-- /.container-fluid -->
     </nav>
     
+    <!--CAROUSEL-->
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -72,25 +73,22 @@
                 <img src="images/BWpdx1.jpg" alt="Rose City in Black and White">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1 class="welcome">
-                            <strong>Hi, My name is Michael Harrison</strong>
-                                <p><a href="#about">Let me tell you about myself...</a></p>
+                        <h1 id="welcome"> Hi, My name is Michael Harrison
                         </h1>
+                            <p class="carousel-para"><a href="#about">Let me tell you about myself</a></p>
                     </div>
                 </div>
             </div>
             <div class="item">
                 <img src="images/BWMeC.jpg" alt="Michael On Deck" class="tales">
                 <div class="carousel-caption">
-                    <h1 class="welcome">
-                        <strong>Hi, My name is Michael Harrison</strong>
-                        <p><a href="#about">Let me tell you about myself...</a></p>
-    </div>
+                            <p id="carousel-p"><a href="#about">Meet me through Music</a></p>
+                </div>
             </div>
             <div class="item">
                 <img src="images/BWDancefloorC.jpg" alt="Dancefloor Moves" class="tales">
                 <div class="carousel-caption">
-
+                            <p id="carousel-p"><a href="#about">Move through time and space with me</a></p>
                 </div>
             </div> 
         </div>
@@ -107,10 +105,10 @@
     </div>
 
     <hr class="feature-divider" id="about"/>
-    
+    <!--ABOUT ME-->
     <div class="row feature">
         <div class="col-md-8 col-md-push-4">
-            <h1><strong> Purpose, Vision, Execution </strong></h1>
+            <h1>Purpose, Vision, Execution</h1>
                 <p> Neuroscience degree holding, aspiring developer with a penchant for high level problem solving. With a background in medical sciences and healthcare, I am interested in utilizing my skills as a developer in tandam with professional experience in these fields to help lead these industries down paths of greater technological utilization for the purpose of administering a high level of care across the spectrum.  Through the use of adaptive technlogies and projective learning we optimize healthcare to serve all people at a high level.</p>
                 <br />
                 <p> Teamwork is essential in producing highly sought products in the market today and such discipline requires thorough communication and team oriented thinking - with no room for ego. I believe in accepting mistakes and working through them.</p>
@@ -123,72 +121,69 @@
     </div>
 
     <hr class="feature-divider" id="portfolio" />
-
+    <!--PORTFOLIO-->    
     <div class="row feature">
-        <div class="col-md-4">
+        <div class="col-lg-4 col-sm-4">
             <h1><strong>Portfolio</strong></h1>
                 <p> Establishing high-level fluency has been centered around a career trajectory in database analysis and engineering.  As such, I have worked to develop high competency in SQL, Python, and R.  Front end design application has been achieved through the development of html, css, and javascript.</p>
         </div>
-        <div class="col-md-8">
+        <div class="col-lg-8 col-sm-8">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
-                <div class="col-lg-4">
-                    <img src="images/LGgithub.png" alt="placeholder img"/>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                    <img src="images/LGgithub.png" alt="placeholder img" />
                 </div>
 
             </div>
         </div>
     </div>
-
-
 
     <hr class="feature-divider" id="contact" />
-
-
+    <!--CONNECT WITH ME-->
     <div class="row">
-        <h1 class="connect"> <strong>Connect With Me</strong></h1><br />
+        <h1 class="connect"><strong>Connect With Me</strong></h1><br />
     </div>
-
     <div class="connect">
         <div class="row">
-            <div class="col-md-4">
-                <img class="img-git" src="images/LGgithub.png" alt="GitHub Logo" width="128" height="128" />
-                <h2>GitHub</h2>
-                <p></p>
-
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="https://github.com/MichaelCHarrison">
+                    <img class="img-git" src="images/LGgithub.png" alt="GitHub Logo" width="128" height="128" />
+                    <h3>GitHub</h3>
+                </a>
             </div>
-            <div class="col-md-4">
-                <img class="img-git" src="images/LGlinkedin.png" alt="LinkedIn Logo" width="128" height="128" />
-                <h2>LinkedIn</h2>
-                <p></p>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <a href="https://www.linkedin.com/in/michael-harrison-7b042a29">
+                    <img class="img-git" src="images/LGlinkedin.png" alt="LinkedIn Logo" width="128" height="128" />
+                    <h3>LinkedIn</h3>
+                </a>
             </div>
-
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                 <img class="img-git" src="images/LGfacebook.png" alt="Facebook Logo" width="128" height="128" />
-                <h2>Facebook</h2>
+                <h3>Facebook</h3>
                 <p></p>
 
             </div>
         </div>
     </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/JavaScript.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 </body>
